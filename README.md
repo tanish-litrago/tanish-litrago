@@ -1,74 +1,103 @@
-# GitHub Profile README — tanish-litrago
-## File: tanish-litrago/tanish-litrago/README.md
+<div align="center">
 
----
+# 〇 Tanish Kumar
 
-```markdown
-<!-- Praise the Fool! -->
+### Sequence Climber · [Data × Systems] Pathway · Above the Gray Fog
+
+[![Status](https://img.shields.io/badge/Status-Sequence%208%20(Trickster)-c4952a?style=flat-square&labelColor=17141f)](https://github.com/tanish-litrago)
+[![Focus](https://img.shields.io/badge/Domain-ML%20%2B%20Backend%20Systems-7b5ea7?style=flat-square&labelColor=17141f)](https://github.com/tanish-litrago)
+[![Education](https://img.shields.io/badge/GEC%20Bilaspur-B.Tech%20CSE%20'27-6a7a8a?style=flat-square&labelColor=17141f)](https://github.com/tanish-litrago)
+
+<br/>
 
 > *"The Fool that doesn't belong to this era, the mysterious ruler above the gray fog, the King of Yellow and Black who wields good luck..."*
 
-## 〇 The Fool — Tanish Kumar
+<br/>
 
-A Sequence climber on the **[Data × Systems]** pathway.  
-Currently ascending from Sequence 9 → 0. No divine revelation yet. Just deterministic rules, clean pipelines, and models that know their place.
-
-I build things where **rules decide and models explain** — never the other way around.  
-The claim guard is never loosened. The Fool does not hallucinate.
+**I build systems where rules decide and models explain — never the other way around.**  
+*The claim guard is never loosened. The Fool does not hallucinate.*
 
 ---
 
-## 📜 The Beyonder Pathways (Projects)
+### 🃏 The Ritual Circle (Tech Stack)
 
-| Sequence | Codename | Powers Manifested |
-|---|---|---|
-| Seq 7 | **[Sylvan Eye](https://github.com/tanish-litrago/Sylvan-Eye)** | Geospatial vision. Reads terrain, soil, and climate from satellite imagery. Rules gate the suitability. LLM only explains. [[Live](https://sylvan-eye-requirements-sable.vercel.app)] |
-| Seq 7 | **[YT Transcript Summarizer](https://github.com/tanish-litrago/yt-transcript-summarizer)** | Knowledge extraction from spoken word. KG-RAG, D3.js force graphs, real-time fact-checking. Runs entirely offline. [[Showcase](https://huggingface.co/spaces/tanish-litrago/yt-transcript-summarizer)] |
-| Seq 8 | **[Legacy Code Modernizer](https://github.com/tanish-litrago)** | Reads C++ legacy codebases via AST parsing (Tree-sitter/ANTLR4). Deterministic rule-based pre-filter narrows the refactor scope. Local LLM orchestration handles the ambiguous restructuring cases only. |
-| Seq 8 | **[Entity Resolution Pipeline](https://github.com/tanish-litrago/Amazon-ML-Challenge)** | Matches noisy business records across three sources. F₀.₅: 0.1937 → 0.9332 in 72 hours. |
-| Seq 8 | **[FinRecon Agent](https://github.com/tanish-litrago/finrecon-agent)** | Autonomous ledger reconciliation. 3-tier cascade. Audit logs. Root-cause analysis over black-box guessing. |
+![Python](https://img.shields.io/badge/Python-17141f?style=for-the-badge&logo=python&logoColor=c4952a)
+![FastAPI](https://img.shields.io/badge/FastAPI-17141f?style=for-the-badge&logo=fastapi&logoColor=c4952a)
+![Flask](https://img.shields.io/badge/Flask-17141f?style=for-the-badge&logo=flask&logoColor=c4952a)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17141f?style=for-the-badge&logo=postgresql&logoColor=c4952a)
+![Docker](https://img.shields.io/badge/Docker-17141f?style=for-the-badge&logo=docker&logoColor=c4952a)
+![PyTorch](https://img.shields.io/badge/PyTorch-17141f?style=for-the-badge&logo=pytorch&logoColor=c4952a)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-17141f?style=for-the-badge&logo=scikitlearn&logoColor=c4952a)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-17141f?style=for-the-badge&logo=githubactions&logoColor=c4952a)
+![Linux](https://img.shields.io/badge/Linux-17141f?style=for-the-badge&logo=linux&logoColor=c4952a)
+![Ollama](https://img.shields.io/badge/Ollama%20(Local)-17141f?style=for-the-badge&logo=ollama&logoColor=c4952a)
+
+</div>
 
 ---
 
-## 🃏 The Tarot Ritual (Stack)
+### 📜 Beyonder Manifestations (Projects)
+
+#### 🌲 [Sylvan Eye — Geospatial Afforestation Engine](https://github.com/tanish-litrago/Sylvan-Eye) `Seq 7`
+> **Powers:** Fuses multi-source satellite imagery, terrain, and climate archives into deterministic planting verdicts.
+- **Architecture:** 4-layer decoupled pipeline: Sentinel-2 & SRTM via Google Earth Engine, SoilGrids 2.0, Open-Meteo climate, and a rule-based suitability gate across 32 species.
+- **The Claim Guard:** Enforces an architecturally non-bypassable guard validating local Gemma 4 (Ollama) outputs claim-by-claim against measured ground truth.
+- **Deployment:** Dockerized FastAPI backend with async polling + zero-npm Leaflet.js UI. 18/18 CI tests green.
+- **Links:** [[Live Demo](https://sylvan-eye-requirements-sable.vercel.app)] · [[GitHub Repo](https://github.com/tanish-litrago/Sylvan-Eye)]
+
+#### ⚡ [YouTube Transcript Summarizer & KG-RAG Engine](https://github.com/tanish-litrago/yt-transcript-summarizer) `Seq 7`
+> **Powers:** Zero-cloud-cost video intelligence and real-time claim verification running on local consumer GPU.
+- **Pipeline:** End-to-end KG-RAG Q&A (ChromaDB + LangChain + D3.js force graphs) with on-demand DuckDuckGo claim fact-checking.
+- **Engineering Fixes:** Patched Ollama streaming bug (#15260) with custom brace-counting JSON parser; circumvented `yt-dlp` HTTP 429 rate limits via browser-cookie probing chain. 52/52 CI tests green.
+- **Links:** [[Showcase Space](https://huggingface.co/spaces/tanish-litrago/yt-transcript-summarizer)] · [[GitHub Repo](https://github.com/tanish-litrago/yt-transcript-summarizer)]
+
+#### 🎯 [Business Entity Resolution Pipeline](https://github.com/tanish-litrago/Amazon-ML-Challenge) `Seq 8`
+> **Powers:** High-precision data matching across noisy commercial sources under 72-hour competition constraints.
+- **Design:** Two-stage pipeline: TF-IDF + NearestNeighbors candidate blocking followed by a constrained local Qwen 2.5 7B structured-output judge (85% confidence gate).
+- **Metric:** Optimized strictly for macro-averaged $F_{0.5}$ (false merge cost $= 2\times$ miss cost), raising score from **0.1937 → 0.9332** ($4.8\times$) across 9 versions.
+- **Links:** [[GitHub Repo](https://github.com/tanish-litrago/Amazon-ML-Challenge)]
+
+#### ⚖️ [Autonomous Financial Reconciliation Agent](https://github.com/tanish-litrago/finrecon-agent) `Seq 8`
+> **Powers:** Self-closing finance-ops reconciliation agent with reproducible audit logs.
+- **Pipeline:** Deterministic 3-tier cascade (exact SQL match → fuzzy threshold search → LLM agent for ambiguous entries) built with FastAPI and PostgreSQL.
+- **Links:** [[GitHub Repo](https://github.com/tanish-litrago/finrecon-agent)]
+
+#### ⚙️ [Legacy Code Modernizer](https://github.com/tanish-litrago) `Seq 8`
+> **Powers:** C++ legacy code refactoring bounded by AST deterministic pre-filters.
+- **Design:** AST parsing (Tree-sitter/ANTLR4) isolates symbol graphs; local LLM orchestration handles only ambiguous modernizations with syntax verification.
+
+---
+
+### 🌑 Sequence Progress
 
 ```text
-Above the gray fog, the ritual circle holds:
-
-  Python          — the mother tongue of this pathway
-  FastAPI / Flask — vessels that carry requests across the fog
-  PostgreSQL      — where measurements are sealed, never verdicts
-  Docker          — the portable altar
-  Ollama          — the constrained oracle (Gemma 4, Qwen 2.5, DeepSeek)
-  ChromaDB        — memory that does not decay... yet
-  GitHub Actions  — the impartial Judgment card
-  Render / Vercel — the public-facing fog gates
+[Sequence 9 — Apprentice]    ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰  100%  (Solid Core Fundamentals)
+[Sequence 8 — Trickster]     ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱   78%  (Pipelines, Hackathons & ASTs)
+[Sequence 7 — Marionettist]  ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱   42%  (Sylvan Eye, KG-RAG, Local Inference)
+[Sequence 0 — The True Fool] ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   A long road through the gray fog...
 ```
 
 ---
 
-## 🌑 Sequence Progress
+### 🏆 Artifacts Obtained
 
-```
-[Seq 9 — Apprentice]    ████████████████████  Complete
-[Seq 8 — Trickster]     ████████████████░░░░  In Progress
-[Seq 7 — Marionettist]  ████████░░░░░░░░░░░░  Fragments Collected
-[Seq 0 — True Fool]     ░░░░░░░░░░░░░░░░░░░░  A very long way off
-```
-
-B.Tech CSE, Government Engineering College, Bilaspur (2023 – 2027).  
-Building toward ML + backend engineering and low-level systems.  
-Currently open to internship opportunities.
+- 🃏 **Tata Imagination Challenge 2026:** National Round 3 Finalist (Top percentile on Unstop) with *TryOut Hub* — a skills-first hiring platform.
+- 🃏 **Amazon ML Challenge 2026:** $F_{0.5}$ score improved from 0.1937 to 0.9332 ($4.8\times$ gain) under 72-hour competition pressure.
+- 🃏 **Adobe University Hackathon 2026:** Round 2 Qualifier with case study on Generative Engine Optimization (GEO).
 
 ---
 
-## 📬 Contact
+<div align="center">
 
-**Email:** tanishkumar.business@gmail.com  
-**LinkedIn:** [linkedin.com/in/tanish-kumar-74278139b](https://linkedin.com/in/tanish-kumar-74278139b)
+### 📬 Fog Gate (Contact)
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tanish--kumar-c4952a?style=flat-square&logo=linkedin&logoColor=17141f&labelColor=17141f)](https://linkedin.com/in/tanish-kumar-74278139b)
+[![GitHub](https://img.shields.io/badge/GitHub-tanish--litrago-c4952a?style=flat-square&logo=github&logoColor=17141f&labelColor=17141f)](https://github.com/tanish-litrago)
+[![Email](https://img.shields.io/badge/Email-tanishkumar.business%40gmail.com-c4952a?style=flat-square&logo=gmail&logoColor=17141f&labelColor=17141f)](mailto:tanishkumar.business@gmail.com)
+
+<br/>
 
 *"The world is like a satanic ritual. But the participants don't know it."*  
-— Lord of the Mysteries, Cuttlefish That Loves Diving
-```
+*— Lord of the Mysteries · Cuttlefish That Loves Diving*
+
+</div>
